@@ -6,10 +6,10 @@ type Props = {
   e: object;
 };
 
-export default function Button({ children, className, e }: Props) {
+export default function Button({ children, className }: Props) {
   return (
     <div>
-        <button {e ? className="btn primary-clicked" : {className}}>{children}</button>
+        <button className={className}>{children}</button>
     </div>
   );
 }
