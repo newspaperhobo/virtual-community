@@ -5,10 +5,10 @@ type Props = {
   className: string;
 };
 
-export default function Button({ children, className }: Props) {
+export default function Link({ children, className }: Props) {
   return (
     <div>
-      <button className={className}>{children}</button>
+      <a href="#" className={className}>{children}</a>
     </div>
   );
 }
