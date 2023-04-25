@@ -1,8 +1,8 @@
 import { ComponentChildren } from "preact";
 
 type Props = {
-  children: ComponentChildren;
-  className: string;
+  children?: ComponentChildren;
+  className?: string;
 };
 
 export default function Button({ children, className }: Props) {
