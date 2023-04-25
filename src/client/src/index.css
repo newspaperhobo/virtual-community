@@ -6,6 +6,9 @@
 body {
     margin: 1rem;
 }
+a {
+    @apply text-spi-violet-100 underline decoration-solid text-sm hover:text-spi-violet-50 active:text-spi-violet-75
+}
 .btn-default {
      @apply text-spi-white-100 font-bold rounded-md border-2 border-spi-violet-100 py-1.5 px-2 text-xs m-2
 }
@@ -26,5 +29,8 @@ body {
 }
 .secondary-clicked {
     @apply bg-spi-white-100 border-spi-violet-75 text-spi-violet-75;
+}
+.chip-style {
+    @apply bg-black-400 text-black-100 border-black-400 hover:bg-black-300 hover:border-black-300
 }
 }

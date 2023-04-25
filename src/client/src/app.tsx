@@ -1,5 +1,6 @@
 import {} from "preact/hooks";
 import Button from "@components/Button";
+import Link from "@components/Link";
 
 export function App() {
   return (
@@ -8,8 +9,10 @@ export function App() {
     //   <div className="w-fit h-fit text-white text-2xl m-auto pb-32">
     //     Clean App
     //   </div> */}
-      <Button className="btn-default primary-clicked">Button Label</Button>
-      <Button className="btn-default secondary-clicked">Button Label</Button>
+      <Button className="btn-default primary">Button Label</Button>
+      <Button className="btn-default secondary">Button Label</Button>
+      <Button className="btn-default chip-style">Button Label</Button>
+      <Link className="">Button Label</Link>
     </div>
   );
 }
