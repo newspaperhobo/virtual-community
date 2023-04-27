@@ -3,52 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-body {
-    margin: 1rem;
-}
-
-a {
-    @apply text-spi-violet-100 underline decoration-solid text-sm hover:text-spi-violet-50 active:text-spi-violet-75
-}
-
 #btn-default {
-     @apply font-bold rounded-md border-2 border-spi-violet-100 py-1.5 px-2 text-xs m-2
+     @apply font-bold rounded-md border-2 py-1.5 px-2 text-xs
 }
-
-button.primary {
-    @apply bg-spi-violet-100 text-spi-white-100 hover:bg-spi-violet-50 hover:border-spi-violet-50
-}
-
-.primary-disabled {
-    @apply bg-spi-violet-300 border-spi-violet-300 cursor-not-allowed;
-}
-
-button.primary:active {
-    @apply bg-spi-violet-75 border-spi-violet-75 text-spi-white-100;
-}
-
-button.primary:focus {
-    @apply bg-spi-violet-75 border-spi-violet-75 text-spi-white-100;
-}
-
-.secondary {
-    @apply bg-spi-white-100 text-spi-violet-100 border-spi-violet-100 hover:border-spi-violet-50 hover:text-spi-violet-50
-}
-
-.secondary-disabled {
-    @apply bg-spi-white-100 text-black-300 border-black-300 border cursor-not-allowed;
-}
-
-button.secondary:active {
-    @apply bg-spi-white-100 border-spi-violet-75 text-spi-violet-75;
-}
-
-button.secondary:focus {
-    @apply bg-spi-white-100 border-spi-violet-75 text-spi-violet-75;
-}
-
-.chip-style {
-    @apply bg-black-400 text-black-100 border-black-400 hover:bg-black-300 hover:border-black-300
-}
-
 }
